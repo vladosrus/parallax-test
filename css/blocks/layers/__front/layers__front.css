@@ -1,3 +1,5 @@
 .layers__front {
   background-image: url(../../../../images/layer-front.png);
+  transform: translate3d(0, calc(var(--scrollTop) / 5.7), 0);
+  z-index: 2;
 }
