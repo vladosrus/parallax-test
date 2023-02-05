@@ -1,0 +1,6 @@
+.dungeon {
+  background-image: url(../../../images/dungeon.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
