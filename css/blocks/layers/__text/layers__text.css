@@ -1,7 +1,7 @@
 .layers__text {
   z-index: 3;
   transform: translate3d(0, calc(var(--scrollTop) / 2), 0);
-  transition: transform 0.75s cubic-bezier(0.075, 0.5, 0, 1);
+  transition: var(--transition);
   will-change: transform;
   text-transform: uppercase;
   font-weight: 900;

@@ -1,6 +1,6 @@
 .layers__front {
   background-image: url(../../../../images/layers_3.png);
   transform: translate3d(0, calc(var(--scrollTop) / 5.7), 0);
-  transition: transform .75s cubic-bezier(.075, .5, 0, 1);
+  transition: var(--transition);
   z-index: 4;
 }
