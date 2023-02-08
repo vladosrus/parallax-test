@@ -1,8 +1,5 @@
 .dungeon {
-  background-image: url(../../../images/dungeon.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: #1e2f34;
   min-height: 100vh;
   display: flex;
   align-items: center;

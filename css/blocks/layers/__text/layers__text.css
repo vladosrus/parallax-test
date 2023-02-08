@@ -1,5 +1,5 @@
 .layers__text {
-  z-index: 1;
+  z-index: 3;
   transform: translate3d(0, calc(var(--scrollTop) / 2), 0);
   will-change: transform;
   text-transform: uppercase;
