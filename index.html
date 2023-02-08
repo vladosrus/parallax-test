@@ -6,32 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Parallax Test</title>                                                <!-- поменять название позже -->
     <link rel="stylesheet" href="./css/index.css" />
+
+    <script src="./vendor/gsap/gsap.min.js" defer></script>
+    <script src="./vendor/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="./vendor/gsap/ScrollSmoother.min.js" defer></script>
+
     <script src="./js/app.js" defer></script>
   </head>
   <body class="page">
-    <header class="header">
-      <div class="layers">
-        <div class="layers__text">
-          <p class="layers__caption">Welcome to Parallax</p>                    <!-- поменять название позже -->
-          <h1 class="layers__title">Fairy Forest</h1>                           <!-- поменять название позже -->
-        </div>
-        <div class="layer layers__base"></div>
-        <div class="layer layers__middle"></div>
-        <div class="layer layers__front"></div>
-      </div>
-    </header>
 
-    <section class="dungeon">
-      <div class="dungeon__content">
-        <h2 class="dungeon__title">To be continued</h2>                         <!-- поменять название позже -->
-        <p class="dungeon__text">                                               <!-- поменять название позже -->
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi dolore
-          esse vitae iusto amet, rerum veritatis cumque quibusdam quia fuga,
-          iure atque tempora harum excepturi illo commodi dolorum consequuntur
-          quae! Repellat, fugit.
-        </p>
-      </div>    
-      <p class="dungeon__copyright">© Vlad Chikov</p>
-    </section>
+    <div class="wrapper">
+      <div class="content">
+        <header class="header">
+          <div class="layers">
+            <div class="layers__text">
+              <p class="layers__caption">Welcome to Parallax</p>                    <!-- поменять название позже -->
+              <h1 class="layers__title">Fairy Forest</h1>                           <!-- поменять название позже -->
+            </div>
+            <div class="layer layers__base"></div>
+            <div class="layer layers__middle"></div>
+            <div class="layer layers__front"></div>
+          </div>
+        </header>
+    
+        <section class="dungeon">
+          <div class="dungeon__content">
+            <h2 class="dungeon__title">To be continued</h2>                         <!-- поменять название позже -->
+            <p class="dungeon__text">                                               <!-- поменять название позже -->
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi dolore
+              esse vitae iusto amet, rerum veritatis cumque quibusdam quia fuga,
+              iure atque tempora harum excepturi illo commodi dolorum consequuntur
+              quae! Repellat, fugit.
+            </p>
+          </div>    
+          <p class="dungeon__copyright">© Vlad Chikov</p>
+        </section>
+      </div>
+    </div>
+    
   </body>
 </html>

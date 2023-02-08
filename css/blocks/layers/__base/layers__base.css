@@ -1,5 +1,6 @@
 .layers__base {
   background-image: url(../../../../images/layers_1.png);
   transform: translate3d(0, calc(var(--scrollTop) / 1.6), 0);
+  transition: transform .75s cubic-bezier(.075, .5, 0, 1);
   z-index: 0;
 }

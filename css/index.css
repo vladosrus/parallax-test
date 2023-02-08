@@ -15,3 +15,7 @@
 @import url(../css/blocks/dungeon/__title/dungeon__title.css);
 @import url(../css/blocks/dungeon/__text/dungeon__text.css);
 @import url(../css/blocks/dungeon/__copyright/dungeon__copyright.css);
+
+:root {
+  --index: calc(1vw + 1vh);
+}

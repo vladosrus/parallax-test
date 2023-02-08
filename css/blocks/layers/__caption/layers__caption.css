@@ -1,0 +1,5 @@
+.layers__caption {
+  margin: 0px;
+  font-size: calc(var(--index) / 1.175);
+  letter-spacing: calc(var(--index) / 3.5);
+}
