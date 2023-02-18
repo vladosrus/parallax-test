@@ -1,0 +1,9 @@
+.fairytale__img-container {
+  min-width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: var(--fairytale-transform);
+  transition: var(--transition);
+  will-change: transform;
+}

@@ -12,5 +12,5 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  bottom: calc(var(--index) * -3);
+  bottom: calc(var(--index) * -4);
 }

@@ -1,0 +1,6 @@
+.fairytale__content {
+  transform: var(--fairytale-transform);
+  transition: var(--transition);
+  will-change: transform;
+  padding-left: calc(var(--index) * 2);
+}

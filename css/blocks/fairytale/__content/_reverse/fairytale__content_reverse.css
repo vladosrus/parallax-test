@@ -1,0 +1,3 @@
+.fairytale__content_reverse {
+  padding: 0px calc(var(--index) * 2) 0px 0px;
+}

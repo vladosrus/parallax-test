@@ -10,14 +10,20 @@
 @import url(../css/blocks/layers/__middle/layers__middle.css);
 @import url(../css/blocks/layers/__front/layers__front.css);
 @import url(../css/blocks/layer/layer.css);
-@import url(../css/blocks/dungeon/dungeon.css);
-@import url(../css/blocks/dungeon/__content/dungeon__content.css);
-@import url(../css/blocks/dungeon/__title/dungeon__title.css);
-@import url(../css/blocks/dungeon/__text/dungeon__text.css);
+@import url(../css/blocks/main/main.css);
+@import url(../css/blocks/fairytale/fairytale.css);
+@import url(../css/blocks/fairytale/__img-container/fairytale__img-container.css);
+@import url(../css/blocks/fairytale/__img/fairytale__img.css);
+@import url(../css/blocks/fairytale/__content/fairytale__content.css);
+@import url(../css/blocks/fairytale/__title/fairytale__title.css);
+@import url(../css/blocks/fairytale/__text/fairytale__text.css);
+@import url(../css/blocks/fairytale/_reverse/fairytale_reverse.css);
+@import url(../css/blocks/fairytale/__content/_reverse/fairytale__content_reverse.css);
 @import url(../css/blocks/footer/footer.css);
 @import url(../css/blocks/footer/__copyright/footer__copyright.css);
 
 :root {
   --index: calc(1vw + 1vh);
   --transition: transform .75s cubic-bezier(.075, .5, 0, 1);
+  --fairytale-transform: translate3d(0, calc(var(--scrollTop) / -10), 0)
 }

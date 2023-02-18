@@ -1,0 +1,8 @@
+.fairytale {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  position: relative;
+  height: auto;
+  padding-top: calc(var(--index) * 11);
+}

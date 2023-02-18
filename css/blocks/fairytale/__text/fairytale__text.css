@@ -1,0 +1,6 @@
+.fairytale__text {
+  color: #fff;
+  font-size: calc(var(--index) * 1);
+  line-height: calc(var(--index) * 1.5);
+  margin: calc(var(--index) / 2.5) 0px;
+}
