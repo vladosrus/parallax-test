@@ -1,0 +1,4 @@
+.footer__list-item {
+  width: calc(var(--index) * 1.5);
+  height: calc(var(--index) * 1.5);
+}

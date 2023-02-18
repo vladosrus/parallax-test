@@ -1,3 +1,7 @@
 .footer__copyright {
+  opacity: 0.6;
   margin: 0px;
+  padding-bottom: calc(var(--index) * 1.2);
+  font-size: calc(var(--index) * 1);
+  line-height: calc(var(--index) * 1.5);
 }

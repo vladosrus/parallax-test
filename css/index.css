@@ -21,6 +21,8 @@
 @import url(../css/blocks/fairytale/__content/_reverse/fairytale__content_reverse.css);
 @import url(../css/blocks/footer/footer.css);
 @import url(../css/blocks/footer/__copyright/footer__copyright.css);
+@import url(../css/blocks/footer/__links-list/footer__links-list.css);
+@import url(../css/blocks/footer/__list-item/footer__list-item.css);
 
 :root {
   --index: calc(1vw + 1vh);

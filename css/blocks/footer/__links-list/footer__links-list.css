@@ -1,0 +1,7 @@
+.footer__links-list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  gap: calc(var(--index) * 1.1);
+}

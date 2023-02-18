@@ -1,0 +1,8 @@
+.footer {
+  background-color: #5d6c4f;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-start;
+  gap: calc(var(--index) * 1.1);
+}
