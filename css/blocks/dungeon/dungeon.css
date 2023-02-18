@@ -1,7 +1,9 @@
 .dungeon {
   background-color: #1e2f34;
+  background: linear-gradient(to top, #29594d, #002429);
+  z-index: 4;
   min-height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }

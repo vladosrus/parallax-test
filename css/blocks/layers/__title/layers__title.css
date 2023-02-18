@@ -2,4 +2,5 @@
   margin: 0px;
   font-size: calc(var(--index) * 2.5);
   letter-spacing: calc(var(--index) / 2.25);
+  margin-top: calc(var(--index) * .5);
 }

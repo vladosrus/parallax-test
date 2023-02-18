@@ -5,4 +5,7 @@
   will-change: transform;
   text-transform: uppercase;
   font-weight: 900;
+  color: #fff;
+  text-shadow: 0 0 10px #f7bb7e;
+  margin-top: calc(var(--index) * -5.5);
 }
