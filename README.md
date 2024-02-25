@@ -9,4 +9,4 @@
 
 **GitHub Pages**
 
-* Посмотреть, как выглядит сайт можно [здесь](https://vladosrus.github.io/parallax-test/)
+* Посмотреть, как выглядит сайт можно [здесь](https://vladislav-chikov-projects.ru/parallax-test/)
