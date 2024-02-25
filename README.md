@@ -1,3 +1,5 @@
+![CD Action](https://github.com/vladosrus/parallax-test/actions/workflows/actions.yml/badge.svg?event=push)
+
 # Проект: «Изучение Parallax-эффектов в веб-дизайне»
 
 ### Описание проекта
