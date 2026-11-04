@@ -1,4 +1,4 @@
-.fairytale__text {
+.fairytale__content p {
   color: #fff;
   font-size: calc(var(--index) * 1);
   line-height: calc(var(--index) * 1.5);
